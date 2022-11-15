@@ -1,0 +1,111 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  #blocks .blocks--group__logo1 {
+    margin: 0 30px;
+  }
+}
+@media (max-width: 1100px) {
+  #hero .hero--put {
+    margin: 20px 0;
+  }
+  #footer .footer--logo {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  #header .header--logo a {
+    margin: 0 20px;
+  }
+  #hero .hero--group {
+    flex-direction: column;
+  }
+  #navbar .navbar {
+    flex-direction: column;
+  }
+  #what .what {
+    flex-direction: column;
+  }
+}
+@media (max-width: 868px) {
+  .container {
+    width: 90%;
+  }
+  #hero .hero--put {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--logo {
+    display: none;
+  }
+  #blocks .blocks--group {
+    flex-wrap: wrap;
+  }
+  #blocks .blocks--group__logo1 {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 651px) {
+  .container {
+    width: 90%;
+  }
+  #hero .hero--group__logo img {
+    width: 90%;
+  }
+  #navbar .navbar img {
+    width: 90%;
+  }
+  #footer .footer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 548px) {
+  .container {
+    width: 90%;
+  }
+  #hero .hero--group img {
+    width: 90%;
+  }
+  #what .what img {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+  #header .header button {
+    display: none;
+  }
+  #hero .hero--group__logo h2 {
+    font-size: 37px;
+  }
+  #hero .hero--group__logo--block {
+    flex-direction: column;
+  }
+  #hero .hero--group__logo--block button {
+    margin: 10px 0;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
