@@ -128,5 +128,22 @@
     margin: 10px 0;
   }
 }
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+  #header .header button {
+    display: none;
+  }
+  #hero .hero--group__logo h2 {
+    font-size: 27px;
+  }
+  #hero .hero--group__logo--block {
+    flex-direction: column;
+  }
+  #hero .hero--group__logo--block button {
+    margin: 10px 0;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

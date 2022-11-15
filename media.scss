@@ -238,3 +238,34 @@
     }
   }
 }
+@media (max-width: 480px) {
+
+  .container{
+    width: 90%;
+  }
+  #header{
+    .header{
+      button{
+        display: none;
+      }
+    }
+  }
+
+  #hero{
+    .hero{
+      &--group{
+        &__logo{
+          h2{
+            font-size: 27px;
+          }
+          &--block{
+            flex-direction: column;
+            button{
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
