@@ -76,18 +76,39 @@
   #hero .hero--group img {
     width: 90%;
   }
+  #what .what h2 {
+    font-size: 30px;
+  }
   #what .what img {
     width: 90%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 393px) {
   .container {
     width: 90%;
   }
+  #hero .hero--group__logo h2 {
+    font-size: 37px;
+  }
+  #hero .hero--group__logo--block {
+    flex-direction: column;
+  }
+  #hero .hero--group__logo--block button {
+    margin: 10px 0;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 421px) {
   .container {
     width: 90%;
+  }
+  #hero .hero--group__logo h2 {
+    font-size: 37px;
+  }
+  #hero .hero--group__logo--block {
+    flex-direction: column;
+  }
+  #hero .hero--group__logo--block button {
+    margin: 10px 0;
   }
 }
 @media (max-width: 320px) {
